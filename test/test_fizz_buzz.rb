@@ -5,6 +5,7 @@ require 'byebug'
 
 class SampleTest < Minitest:: Test
   def test_fizzbuzz
+    # ↓これでは普通に実行するのと変わらないので、以下に修正
     # for x in 1..100 do
     #   if x%3 == 0 && x%5 ==0
     #     assert_equal "fizzbuzz" ,fizzbuzz(x)
