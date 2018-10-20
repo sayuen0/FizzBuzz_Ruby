@@ -2,6 +2,6 @@
 
 source "https://rubygems.org"
 
-gem 'faker','1.7.2'
-gem 'awesome_print'
+gem 'faker','1.7.2' #ダミーデータ作成
+gem 'awesome_print' #コンソール出力を良く
 # gem "rails"
